@@ -22,8 +22,8 @@ RUN apk update && apk add --no-cache --update-cache libuv\
 
 RUN npm config set registry https://mirrors.huaweicloud.com/repository/npm/
 
-WORKDIR /workspaces/wybj_vue
+WORKDIR /workspaces/xinghuo
 
-EXPOSE 8080
+EXPOSE 8081
 
 CMD ["npm", "run", "serve"]
